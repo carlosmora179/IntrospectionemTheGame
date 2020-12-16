@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Inventario : MonoBehaviour
+public class Inventario : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField]
     private DataBase dataBase;
@@ -13,6 +14,8 @@ public class Inventario : MonoBehaviour
     [SerializeField]
     private List<SlotInfo> slotInfoList;
     [SerializeField]
+    private GameObject canva;
+    [SerializeField]
     private int capacidad;
 
     private string jsonString; //Para guardar el inventario
@@ -21,6 +24,7 @@ public class Inventario : MonoBehaviour
     {
         slotInfoList = new List<SlotInfo>();
         CreateInventory();
+        AddItem(2);
     }
 
     private void CreateInventory()
@@ -89,5 +93,29 @@ public class Inventario : MonoBehaviour
             slotInfo.EmptySlot();
             EncontrarSlot(slotInfo.id).UpdateUI();
         } 
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.pointerCurrentRaycast.gameObject.name == "Objeto")
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+            removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
+        }
+        else
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.GetComponent<Slot>().slotInfo.id);
+            CerrarInventario();
+        }
+    }
+
+    public void AbrirInvantario()
+    {
+        canva.SetActive(true);
+    }
+
+    public void CerrarInventario()
+    {
+        canva.SetActive(false);
     }
 }

@@ -997,6 +997,7 @@ MonoBehaviour:
     type: 3}
   panelInventario: {fileID: 1962691335}
   slotInfoList: []
+  canva: {fileID: 1402972187}
   capacidad: 15
 --- !u!1001 &1690224406
 PrefabInstance:
@@ -1043,7 +1044,7 @@ PrefabInstance:
     - target: {fileID: 5149025649215519761, guid: 929168fd76face342bdbabde873f8aff,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5149025649215519761, guid: 929168fd76face342bdbabde873f8aff,
         type: 3}
@@ -1118,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 5149025649215519765, guid: 929168fd76face342bdbabde873f8aff,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5149025649244344281, guid: 929168fd76face342bdbabde873f8aff,
         type: 3}
@@ -1312,7 +1313,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4947607878024433393
 PrefabInstance:
