@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2d;
 
     public bool canMove = true;
+    public GameObject inventario;
 
     // Start is called before the first frame update
     void Start()
