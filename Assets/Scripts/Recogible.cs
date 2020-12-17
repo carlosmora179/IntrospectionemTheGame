@@ -16,7 +16,6 @@ public class Recogible : MonoBehaviour
             player.canMove = true;
             player.inTrigger = false;
             player.inventario.GetComponentInChildren<Inventario>().AddItem(itemId);
-            //player.inventario.gameObject.SetActive(true);
             Destruir();
         }
     }

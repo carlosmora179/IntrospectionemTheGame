@@ -50,14 +50,24 @@ public class Player : MonoBehaviour
             if (isOpen)
             {
                 isOpen = false;
-                inventario.GetComponentInChildren<Inventario>().CerrarInventario();
+                CerrarInventario();
 
             }else
             {
                 isOpen = true;
-                inventario.GetComponentInChildren<Inventario>().AbrirInvantario();
+                AbrirInventario();
             }
             
         }
+    }
+
+    public void AbrirInventario()
+    {
+        inventario.GetComponentInChildren<Inventario>().AbrirInvantario();
+    }
+
+    public void CerrarInventario()
+    {
+        inventario.GetComponentInChildren<Inventario>().CerrarInventario();
     }
 }

@@ -17,10 +17,13 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
     private GameObject canva;
     [SerializeField]
     private int capacidad;
+    [SerializeField]
+    private int selected;
 
     public void Start()
     {
         slotInfoList = new List<SlotInfo>();
+        selected = -1;
         CreateInventory();
         CerrarInventario();
     }
@@ -93,20 +96,6 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
         } 
     }
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (eventData.pointerCurrentRaycast.gameObject.name == "Objeto")
-        {
-            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
-            removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
-        }
-        else if(eventData.pointerCurrentRaycast.gameObject.name == "Slot(Clone)")
-        {
-            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.GetComponent<Slot>().slotInfo.id);
-            CerrarInventario();
-        }
-    }
-
     public void AbrirInvantario()
     {
         canva.SetActive(true);
@@ -115,5 +104,26 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
     public void CerrarInventario()
     {
         canva.SetActive(false);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.pointerCurrentRaycast.gameObject.name == "Objeto")
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+            selected = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem;
+            CerrarInventario();
+            //removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
+        }
+        else if (eventData.pointerCurrentRaycast.gameObject.name == "Slot(Clone)")
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.GetComponent<Slot>().slotInfo.id);
+            CerrarInventario();
+        }
+    }
+
+    public int getSelected()
+    {
+        return selected;
     }
 }
