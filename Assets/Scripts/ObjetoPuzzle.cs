@@ -29,14 +29,24 @@ public class ObjetoPuzzle : MonoBehaviour
                 player.AbrirInventario();
             }
             int idItem = player.inventario.GetComponentInChildren<Inventario>().getSelected();
-            if (isOpen && idItem == keyId)
+            if (idItem != 1)
             {
-                Debug.Log("Puzzle resuelto");
-                resuelto = true;
-                player.inTrigger = false;
-                player = null;
-                canvas.gameObject.SetActive(false);
-                collider.enabled = false;
+                if (idItem == keyId)
+                {
+                    Debug.Log("Puzzle resuelto");
+                    player.inventario.GetComponentInChildren<Inventario>().UnSelected();
+                    resuelto = true;
+                    player.inTrigger = false;
+                    player = null;
+                    canvas.gameObject.SetActive(false);
+                    collider.enabled = false;
+                }
+                else
+                {
+                    Debug.Log("Fallo al resolver");
+                    player.inventario.GetComponentInChildren<Inventario>().UnSelected();
+                }
+                isOpen = false;
             }
         }
         
