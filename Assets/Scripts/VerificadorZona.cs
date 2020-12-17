@@ -65,7 +65,7 @@ public class VerificadorZona : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (AllPuzzlesResolved())
+        //if (AllPuzzlesResolved())
         {
             if (firstSentence)
             {
@@ -87,6 +87,7 @@ public class VerificadorZona : MonoBehaviour
         }
     }
 
+    /**
     private bool AllPuzzlesResolved()
     {
         foreach (GameObject puzzle in listPuzzles)
@@ -99,4 +100,5 @@ public class VerificadorZona : MonoBehaviour
 
         return true;
     }
+    **/
 }
