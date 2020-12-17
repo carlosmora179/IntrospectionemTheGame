@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Inventario : MonoBehaviour
+public class Inventario : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField]
     private DataBase dataBase;
@@ -13,14 +14,18 @@ public class Inventario : MonoBehaviour
     [SerializeField]
     private List<SlotInfo> slotInfoList;
     [SerializeField]
+    private GameObject canva;
+    [SerializeField]
     private int capacidad;
-
-    private string jsonString; //Para guardar el inventario
+    [SerializeField]
+    private int selected;
 
     public void Start()
     {
         slotInfoList = new List<SlotInfo>();
+        selected = -1;
         CreateInventory();
+        CerrarInventario();
     }
 
     private void CreateInventory()
@@ -66,7 +71,7 @@ public class Inventario : MonoBehaviour
         return null;
     }
 
-    private void AddItem(int id)
+    public void AddItem(int id)
     {
         Item item = dataBase.EncontrarItem(id); //Buscarlo
         if (item != null)
@@ -81,7 +86,7 @@ public class Inventario : MonoBehaviour
         }
     }
 
-    private void removerItem(int itemId)
+    public void removerItem(int itemId)
     {
         SlotInfo slotInfo = EncontrarItemInventario(itemId);
         if (slotInfo != null) 
@@ -89,5 +94,42 @@ public class Inventario : MonoBehaviour
             slotInfo.EmptySlot();
             EncontrarSlot(slotInfo.id).UpdateUI();
         } 
+    }
+
+    public void AbrirInvantario()
+    {
+        canva.SetActive(true);
+    }
+
+    public void CerrarInventario()
+    {
+        canva.SetActive(false);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.pointerCurrentRaycast.gameObject.name == "Objeto")
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+            selected = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem;
+            CerrarInventario();
+            //removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
+        }
+        else if (eventData.pointerCurrentRaycast.gameObject.name == "Slot(Clone)")
+        {
+            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.GetComponent<Slot>().slotInfo.id);
+            selected = 100;
+            CerrarInventario();
+        }
+    }
+
+    public int getSelected()
+    {
+        return selected;
+    }
+
+    public void UnSelected()
+    {
+        selected = -1;
     }
 }

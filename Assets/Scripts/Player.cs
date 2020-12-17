@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2d;
 
     public bool canMove = true;
+    public GameObject inventario;
+    public bool inTrigger = false;
+    private bool isOpen = false;
 
     // Start is called before the first frame update
     void Start()
@@ -41,5 +44,30 @@ public class Player : MonoBehaviour
 
             rb2d.MovePosition((Vector2)this.transform.position + (move * speed * Time.deltaTime));
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (isOpen)
+            {
+                isOpen = false;
+                CerrarInventario();
+
+            }else
+            {
+                isOpen = true;
+                AbrirInventario();
+            }
+            
+        }
+    }
+
+    public void AbrirInventario()
+    {
+        inventario.GetComponentInChildren<Inventario>().AbrirInvantario();
+    }
+
+    public void CerrarInventario()
+    {
+        inventario.GetComponentInChildren<Inventario>().CerrarInventario();
     }
 }
