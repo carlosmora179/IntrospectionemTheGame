@@ -76,11 +76,9 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
             SlotInfo slotInfo = EncontrarSlotVacio(); // Buscar campo para meterlo
             if (slotInfo != null)
             {
-                Debug.Log("Espacio encontrado");
                 slotInfo.idItem = id;
                 slotInfo.isEmpty = false;
                 EncontrarSlot(slotInfo.id).UpdateUI();
-                Debug.Log("Agregado");
             }
         }
     }

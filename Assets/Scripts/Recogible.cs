@@ -13,11 +13,10 @@ public class Recogible : MonoBehaviour
     {
         if (player != null && player.inTrigger && Input.GetKey(KeyCode.E))
         {
-            Debug.Log("Precione");
             player.canMove = true;
             player.inTrigger = false;
             player.inventario.GetComponentInChildren<Inventario>().AddItem(itemId);
-            player.inventario.gameObject.SetActive(true);
+            //player.inventario.gameObject.SetActive(true);
             Destruir();
         }
     }
