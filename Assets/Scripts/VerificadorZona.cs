@@ -1,29 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class DialogueManager : MonoBehaviour
+public class VerificadorZona : MonoBehaviour
 {
     public Dialogue dialogue;
-    private Player player;
-
     Queue<string> sentences;
-
     public GameObject dialoguePanel;
     public TextMeshProUGUI displayText;
-
     string activeSentence;
+    private Player player;
     private float typingSpeed = 0.05f;
 
-    private bool isEnter = false;
-
+    private bool firstSentence = true;
+    private bool readAllSentences = false;
+    public GameObject[] listPuzzles;
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
         player = FindObjectOfType<Player>();
+        FillSentences();
     }
 
     void FillSentences()
@@ -59,39 +58,45 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             player.canMove = true;
-            FillSentences();
+            readAllSentences = true;
         }
     }
 
-    
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            FillSentences();
-            isEnter = true;
-        }
-    }
-
+    // Update is called once per frame
     void Update()
     {
-        if (isEnter)
+        if (AllPuzzlesResolved())
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (firstSentence)
             {
                 player.canMove = false;
                 dialoguePanel.SetActive(true);
                 DisplayNextSentence();
+                firstSentence = false;
+            }
+            else
+            {
+                if (!readAllSentences)
+                {
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        DisplayNextSentence();
+                    }
+                }
             }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private bool AllPuzzlesResolved()
     {
-        if (collision.CompareTag("Player"))
+        foreach (GameObject puzzle in listPuzzles)
         {
-            isEnter = false;
+            if (!puzzle.GetComponent<ObjetoPuzzle>().resuelto)
+            {
+                return false;
+            }
         }
+
+        return true;
     }
 }
