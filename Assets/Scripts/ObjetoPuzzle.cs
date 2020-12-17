@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjetoPuzzle : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class ObjetoPuzzle : MonoBehaviour
 
     private Player player;
     private bool isOpen = false;
+
+     public Text text;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,14 +29,15 @@ public class ObjetoPuzzle : MonoBehaviour
             {
                 isOpen = true;
                 canvas.SetActive(false);
+                player.canMove = false;
                 player.AbrirInventario();
             }
             int idItem = player.inventario.GetComponentInChildren<Inventario>().getSelected();
-            if (idItem != 1)
+            if (idItem != -1)
             {
+                player.canMove = true;
                 if (idItem == keyId)
                 {
-                    Debug.Log("Puzzle resuelto");
                     player.inventario.GetComponentInChildren<Inventario>().UnSelected();
                     resuelto = true;
                     player.inTrigger = false;
@@ -43,7 +47,7 @@ public class ObjetoPuzzle : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Fallo al resolver");
+                    StartCoroutine("WaitSeconds");
                     player.inventario.GetComponentInChildren<Inventario>().UnSelected();
                 }
                 isOpen = false;
@@ -54,6 +58,7 @@ public class ObjetoPuzzle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        text.text = "E para interactuar";
         canvas.gameObject.SetActive(true);
         player = collision.GetComponent<Player>();
         player.inTrigger = true;
@@ -65,5 +70,13 @@ public class ObjetoPuzzle : MonoBehaviour
         collision.GetComponent<Player>().inTrigger = false;
         player = null;
         isOpen = false;
+    }
+
+    IEnumerator WaitSeconds()
+    {
+        text.text = "Item equivocado";
+        canvas.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        canvas.SetActive(false);
     }
 }

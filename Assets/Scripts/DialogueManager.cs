@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
 
     private bool isEnter = false;
 
+    public GameObject canvas;
+
 
     // Start is called before the first frame update
     void Start()
@@ -69,6 +71,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            canvas.SetActive(true);
             FillSentences();
             isEnter = true;
         }
@@ -80,6 +83,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                canvas.SetActive(false);
                 player.canMove = false;
                 dialoguePanel.SetActive(true);
                 DisplayNextSentence();
@@ -91,6 +95,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            canvas.SetActive(false);
             isEnter = false;
         }
     }

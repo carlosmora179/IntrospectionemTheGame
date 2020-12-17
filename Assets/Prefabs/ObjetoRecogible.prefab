@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1707920105776052040}
   - component: {fileID: 1707920105776052047}
   m_Layer: 0
-  m_Name: ItemObject
+  m_Name: ObjetoRecogible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,8 +180,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.299988, y: -328.41003}
-  m_SizeDelta: {x: -706.713, y: -656.81683}
+  m_AnchoredPosition: {x: 9, y: -331}
+  m_SizeDelta: {x: -513.9971, y: -656.8184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1707920106744402095
 CanvasRenderer:
@@ -254,8 +254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10, y: -329}
-  m_SizeDelta: {x: -826.25604, y: -715.79767}
+  m_AnchoredPosition: {x: 20, y: -330}
+  m_SizeDelta: {x: -629.2575, y: -715.79767}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1707920106753204197
 CanvasRenderer:
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E
+  m_Text: E para recoger
 --- !u!1 &1707920107675202287
 GameObject:
   m_ObjectHideFlags: 0
