@@ -18,13 +18,11 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private int capacidad;
 
-    private string jsonString; //Para guardar el inventario
-
     public void Start()
     {
         slotInfoList = new List<SlotInfo>();
         CreateInventory();
-        AddItem(2);
+        CerrarInventario();
     }
 
     private void CreateInventory()
@@ -70,7 +68,7 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
         return null;
     }
 
-    private void AddItem(int id)
+    public void AddItem(int id)
     {
         Item item = dataBase.EncontrarItem(id); //Buscarlo
         if (item != null)
@@ -78,14 +76,16 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
             SlotInfo slotInfo = EncontrarSlotVacio(); // Buscar campo para meterlo
             if (slotInfo != null)
             {
+                Debug.Log("Espacio encontrado");
                 slotInfo.idItem = id;
                 slotInfo.isEmpty = false;
                 EncontrarSlot(slotInfo.id).UpdateUI();
+                Debug.Log("Agregado");
             }
         }
     }
 
-    private void removerItem(int itemId)
+    public void removerItem(int itemId)
     {
         SlotInfo slotInfo = EncontrarItemInventario(itemId);
         if (slotInfo != null) 
@@ -102,7 +102,7 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
             removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
         }
-        else
+        else if(eventData.pointerCurrentRaycast.gameObject.name == "Slot(Clone)")
         {
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.GetComponent<Slot>().slotInfo.id);
             CerrarInventario();
