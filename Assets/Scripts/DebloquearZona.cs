@@ -21,7 +21,7 @@ public class DebloquearZona : MonoBehaviour
     void Update()
     {
         if (!zonaTerminada && verificador.zonaResuelta) {
-            collider.enabled = false;
+            //collider.enabled = false;
             zonaTerminada = true;
             trofeo.gameObject.SetActive(true);
         }
