@@ -1,0 +1,1355 @@
+fileFormatVersion: 2
+guid: 89f03b889f134ce47838bd502b373199
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7639871703664822473
+    second: mueblesMansion_0
+  - first:
+      213: -4090962706458783360
+    second: mueblesMansion_1
+  - first:
+      213: 8432636939614343291
+    second: mueblesMansion_2
+  - first:
+      213: 1721820150992460843
+    second: mueblesMansion_3
+  - first:
+      213: 3586840001094927339
+    second: mueblesMansion_4
+  - first:
+      213: 2262550183101516869
+    second: mueblesMansion_5
+  - first:
+      213: -3061847116737975129
+    second: mueblesMansion_6
+  - first:
+      213: 1968219988059123230
+    second: mueblesMansion_7
+  - first:
+      213: -43929642888246051
+    second: mueblesMansion_8
+  - first:
+      213: 2788578608632981064
+    second: mueblesMansion_9
+  - first:
+      213: 4963075375665112998
+    second: mueblesMansion_10
+  - first:
+      213: 3007870792710372544
+    second: mueblesMansion_11
+  - first:
+      213: 8511464046740830209
+    second: mueblesMansion_12
+  - first:
+      213: 8142178182139610455
+    second: mueblesMansion_13
+  - first:
+      213: 848002778982116842
+    second: mueblesMansion_14
+  - first:
+      213: 1941553841259934844
+    second: mueblesMansion_15
+  - first:
+      213: -2628453329447841141
+    second: mueblesMansion_16
+  - first:
+      213: 7071068758729058791
+    second: mueblesMansion_17
+  - first:
+      213: 426643976242340188
+    second: mueblesMansion_18
+  - first:
+      213: 7046638085474365211
+    second: mueblesMansion_19
+  - first:
+      213: -584187567319216158
+    second: mueblesMansion_20
+  - first:
+      213: -7341353502927644950
+    second: mueblesMansion_21
+  - first:
+      213: 4415882009015091700
+    second: mueblesMansion_22
+  - first:
+      213: -6241079328924057956
+    second: mueblesMansion_23
+  - first:
+      213: 7389104297639206130
+    second: mueblesMansion_24
+  - first:
+      213: -5253490368490312148
+    second: mueblesMansion_25
+  - first:
+      213: -5808138796631623316
+    second: mueblesMansion_26
+  - first:
+      213: 7030460633016826168
+    second: mueblesMansion_27
+  - first:
+      213: 8924979168747100688
+    second: mueblesMansion_28
+  - first:
+      213: 2130367360756934363
+    second: mueblesMansion_29
+  - first:
+      213: -2374643325328446161
+    second: mueblesMansion_30
+  - first:
+      213: 1771827097829307947
+    second: mueblesMansion_31
+  - first:
+      213: 4062388338349722636
+    second: mueblesMansion_32
+  - first:
+      213: 5051058544111166059
+    second: mueblesMansion_33
+  - first:
+      213: 505841336011906091
+    second: mueblesMansion_34
+  - first:
+      213: 8026506456952495517
+    second: mueblesMansion_35
+  - first:
+      213: 1792914460893985437
+    second: mueblesMansion_36
+  - first:
+      213: -3405977091417460733
+    second: mueblesMansion_37
+  - first:
+      213: -8600053569970656180
+    second: mueblesMansion_38
+  - first:
+      213: 8630317703346104918
+    second: mueblesMansion_39
+  - first:
+      213: -1558616400492534066
+    second: mueblesMansion_40
+  - first:
+      213: -5700561905294350734
+    second: mueblesMansion_41
+  - first:
+      213: 5918477172893191317
+    second: mueblesMansion_42
+  - first:
+      213: -2045104003978538426
+    second: mueblesMansion_43
+  - first:
+      213: 4509121770604069718
+    second: mueblesMansion_44
+  - first:
+      213: -1561750243983762021
+    second: mueblesMansion_45
+  - first:
+      213: -2076078089219304771
+    second: mueblesMansion_46
+  - first:
+      213: -216378811061310930
+    second: mueblesMansion_47
+  - first:
+      213: 6775992983485745269
+    second: mueblesMansion_48
+  - first:
+      213: 317841065657190271
+    second: mueblesMansion_49
+  - first:
+      213: 2868387801691281710
+    second: mueblesMansion_50
+  - first:
+      213: 8756728022516363430
+    second: mueblesMansion_51
+  - first:
+      213: 515138809496160331
+    second: mueblesMansion_52
+  - first:
+      213: 808426875133393841
+    second: mueblesMansion_53
+  - first:
+      213: 1062352176161976962
+    second: mueblesMansion_54
+  - first:
+      213: -869752628746260877
+    second: mueblesMansion_55
+  - first:
+      213: 1620995617215934176
+    second: mueblesMansion_56
+  - first:
+      213: 6816783165157273794
+    second: mueblesMansion_57
+  - first:
+      213: -2670447340940873052
+    second: mueblesMansion_58
+  - first:
+      213: 4892999884489868018
+    second: mueblesMansion_59
+  - first:
+      213: -8945426945891333995
+    second: mueblesMansion_60
+  - first:
+      213: -8594157458146048592
+    second: mueblesMansion_61
+  - first:
+      213: 1660716986231886382
+    second: mueblesMansion_62
+  - first:
+      213: 8112801162047844829
+    second: mueblesMansion_63
+  - first:
+      213: -4984581307418411949
+    second: mueblesMansion_64
+  - first:
+      213: -7131432223978799121
+    second: mueblesMansion_65
+  - first:
+      213: -5642755199919420283
+    second: mueblesMansion_66
+  - first:
+      213: 4363473356505416004
+    second: mueblesMansion_67
+  - first:
+      213: 1999690238698706197
+    second: mueblesMansion_68
+  - first:
+      213: -3574467793596472760
+    second: mueblesMansion_69
+  - first:
+      213: 1890400312646650878
+    second: mueblesMansion_70
+  - first:
+      213: 3417052221940584878
+    second: mueblesMansion_71
+  - first:
+      213: -4501563264866930780
+    second: mueblesMansion_72
+  - first:
+      213: -2083093161338817179
+    second: mueblesMansion_73
+  - first:
+      213: 5479990403789437381
+    second: mueblesMansion_74
+  - first:
+      213: -7956738050667015634
+    second: mueblesMansion_75
+  - first:
+      213: -8060568483461537317
+    second: mueblesMansion_76
+  - first:
+      213: 4355808666886996852
+    second: mueblesMansion_77
+  - first:
+      213: -8186020094505663894
+    second: mueblesMansion_78
+  - first:
+      213: 6678941031376897039
+    second: mueblesMansion_79
+  - first:
+      213: 3939935548169013656
+    second: mueblesMansion_80
+  - first:
+      213: 2317259056509257944
+    second: mueblesMansion_81
+  - first:
+      213: -8322224267535056060
+    second: mueblesMansion_82
+  - first:
+      213: 2917970432274920458
+    second: mueblesMansion_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mueblesMansion_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 966
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8008236d6460a60800000000000000
+      internalID: 7639871703664822473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 966
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0815724e71bf937c0800000000000000
+      internalID: -4090962706458783360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 966
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70dc895e9eb60570800000000000000
+      internalID: 8432636939614343291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 966
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd3030e4225e710800000000000000
+      internalID: 1721820150992460843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 966
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3cc632af307c130800000000000000
+      internalID: 3586840001094927339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 972
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cc24e6761366f10800000000000000
+      internalID: 2262550183101516869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 992
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac674a05422285d0800000000000000
+      internalID: -3061847116737975129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 992
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e661ca6a5805b10800000000000000
+      internalID: 1968219988059123230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 992
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc4988f83ee36ff0800000000000000
+      internalID: -43929642888246051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 992
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84662d3587503b620800000000000000
+      internalID: 2788578608632981064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 992
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7e10832c260e440800000000000000
+      internalID: 4963075375665112998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc36c1bc8a1eb920800000000000000
+      internalID: 3007870792710372544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108fe70747bce1670800000000000000
+      internalID: 8511464046740830209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 903
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7550e54eae3def070800000000000000
+      internalID: 8142178182139610455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 903
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aede5c9d806b4cb00800000000000000
+      internalID: 848002778982116842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 903
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74f79c8ee8c1fa10800000000000000
+      internalID: 1941553841259934844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 903
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82919d7f9bd58bd0800000000000000
+      internalID: -2628453329447841141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 919
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9686a629b712260800000000000000
+      internalID: 7071068758729058791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_18
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 951
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c512c799f6ebbe500800000000000000
+      internalID: 426643976242340188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 944
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f20790100bac160800000000000000
+      internalID: 7046638085474365211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 912
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef0dbfa08c84e7f0800000000000000
+      internalID: -584187567319216158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 903
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69d6f92e54e1a90800000000000000
+      internalID: -7341353502927644950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 901
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f102657a4d584d30800000000000000
+      internalID: 4415882009015091700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 901
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eb270ca6b3369a0800000000000000
+      internalID: -6241079328924057956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 901
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd815a53f5b8660800000000000000
+      internalID: 7389104297639206130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 901
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ee233185ad717b0800000000000000
+      internalID: -5253490368490312148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 864
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c697b9c8988556fa0800000000000000
+      internalID: -5808138796631623316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 864
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839f55e52b6319160800000000000000
+      internalID: 7030460633016826168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 914
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9ee47445ebdb70800000000000000
+      internalID: 8924979168747100688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 870
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e003d3d5909d10800000000000000
+      internalID: 2130367360756934363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 743
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dab8d1a729b0fd0800000000000000
+      internalID: -2374643325328446161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 512
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26f681ab5bc69810800000000000000
+      internalID: 1771827097829307947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_32
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 512
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c46079ba0806830800000000000000
+      internalID: 4062388338349722636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 352
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62a275fbf6f81640800000000000000
+      internalID: 5051058544111166059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 544
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd2b9d30c150700800000000000000
+      internalID: 505841336011906091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 544
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d580aa811e36f60800000000000000
+      internalID: 8026506456952495517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 544
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3f32f336b1e810800000000000000
+      internalID: 1792914460893985437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_37
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 96
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300b1f881e98bb0d0800000000000000
+      internalID: -3405977091417460733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_38
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 205
+        width: 18
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca198d7d876a880800000000000000
+      internalID: -8600053569970656180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_39
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 205
+        width: 18
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa5bec93c05c770800000000000000
+      internalID: 8630317703346104918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_40
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 205
+        width: 18
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec66b8344aeae5ae0800000000000000
+      internalID: -1558616400492534066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 322
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766ec6662983e0b0800000000000000
+      internalID: -5700561905294350734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 385
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c8e8d91a7a22250800000000000000
+      internalID: 5918477172893191317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642512a6eb45e93e0800000000000000
+      internalID: -2045104003978538426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 225
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65306d92c5e939e30800000000000000
+      internalID: 4509121770604069718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_45
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 225
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dd7777d6c835ae0800000000000000
+      internalID: -1561750243983762021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mueblesMansion_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 544
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db29c163af94033e0800000000000000
+      internalID: -2076078089219304771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
