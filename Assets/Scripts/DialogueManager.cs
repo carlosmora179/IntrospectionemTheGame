@@ -89,7 +89,6 @@ public class DialogueManager : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 DisplayNextSentence();
                 leido = true;
-                Debug.Log(leido);
             }
         }
     }
