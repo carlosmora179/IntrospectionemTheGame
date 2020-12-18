@@ -9,6 +9,7 @@ public class ObjetoPuzzle : MonoBehaviour
     public bool resuelto = false;
     public GameObject canvas;
     public Collider2D collider;
+    public Sprite sprite;
 
     private Player player;
     private bool isOpen = false;
@@ -45,6 +46,7 @@ public class ObjetoPuzzle : MonoBehaviour
                     player = null;
                     canvas.gameObject.SetActive(false);
                     collider.enabled = false;
+                    CambiarSprite();
                 }
                 else
                 {
@@ -79,5 +81,9 @@ public class ObjetoPuzzle : MonoBehaviour
         canvas.SetActive(true);
         yield return new WaitForSeconds(2f);
         canvas.SetActive(false);
+    }
+    public void CambiarSprite()
+    {
+        this.GetComponentInChildren<SpriteRenderer>().sprite = sprite;
     }
 }
