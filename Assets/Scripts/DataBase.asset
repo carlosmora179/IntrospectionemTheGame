@@ -14,11 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - id: 0
-    nombre: Kevin
+    nombre: LlavePrincipal
     image: {fileID: 8040196581939011165, guid: c31098fdea600914887e748bc5a9e2a3, type: 3}
     descripcion: 
   - id: 1
-    nombre: Carlos
+    nombre: Pala
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 2
+    nombre: Silla
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 3
+    nombre: Jabon
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 4
+    nombre: Cartucho
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 5
+    nombre: Herramienta
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 6
+    nombre: Acertijo
+    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
+      type: 3}
+    descripcion: 
+  - id: 7
+    nombre: TuboEnsayo
     image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
       type: 3}
     descripcion: 

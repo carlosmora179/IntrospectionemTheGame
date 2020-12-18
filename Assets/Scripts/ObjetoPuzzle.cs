@@ -39,6 +39,7 @@ public class ObjetoPuzzle : MonoBehaviour
                 if (idItem == keyId)
                 {
                     player.inventario.GetComponentInChildren<Inventario>().UnSelected();
+                    player.inventario.GetComponentInChildren<Inventario>().removerItem(keyId);
                     resuelto = true;
                     player.inTrigger = false;
                     player = null;

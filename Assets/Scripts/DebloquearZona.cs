@@ -9,6 +9,8 @@ public class DebloquearZona : MonoBehaviour
     [SerializeField]
     private Collider2D collider;
     private bool zonaTerminada;
+    [SerializeField]
+    private GameObject trofeo;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class DebloquearZona : MonoBehaviour
         if (!zonaTerminada && verificador.zonaResuelta) {
             collider.enabled = false;
             zonaTerminada = true;
+            trofeo.gameObject.SetActive(true);
         }
     }
 }
