@@ -16,6 +16,7 @@ public class VerificadorZona : MonoBehaviour
     private bool firstSentence = true;
     private bool readAllSentences = false;
     public GameObject[] listPuzzles;
+    public bool zonaResuelta;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class VerificadorZona : MonoBehaviour
         sentences = new Queue<string>();
         player = FindObjectOfType<Player>();
         FillSentences();
+        zonaResuelta = false;
     }
 
     void FillSentences()
@@ -67,6 +69,7 @@ public class VerificadorZona : MonoBehaviour
     {
         if (AllPuzzlesResolved())
         {
+            zonaResuelta = true;
             if (firstSentence)
             {
                 player.canMove = false;
