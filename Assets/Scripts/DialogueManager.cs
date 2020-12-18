@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
     private bool isEnter = false;
 
     public GameObject canvas;
+    public bool leido = false;
 
 
     // Start is called before the first frame update
@@ -87,6 +88,8 @@ public class DialogueManager : MonoBehaviour
                 player.canMove = false;
                 dialoguePanel.SetActive(true);
                 DisplayNextSentence();
+                leido = true;
+                Debug.Log(leido);
             }
         }
     }
