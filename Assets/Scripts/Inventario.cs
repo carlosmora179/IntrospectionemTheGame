@@ -112,8 +112,8 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
         {
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
             selected = eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem;
+            removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
             CerrarInventario();
-            //removerItem(eventData.pointerCurrentRaycast.gameObject.GetComponentInParent<Slot>().slotInfo.idItem);
         }
         else if (eventData.pointerCurrentRaycast.gameObject.name == "Slot(Clone)")
         {
