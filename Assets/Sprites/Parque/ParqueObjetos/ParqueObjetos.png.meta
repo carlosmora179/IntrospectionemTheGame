@@ -1,0 +1,1772 @@
+fileFormatVersion: 2
+guid: 4c47e55bd4c4a244da100c2b61673bec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7172847805145952925
+    second: ParqueObjetos_0
+  - first:
+      213: -5352545765701400389
+    second: ParqueObjetos_1
+  - first:
+      213: -1210400438397938008
+    second: ParqueObjetos_2
+  - first:
+      213: 1080062519210772564
+    second: ParqueObjetos_3
+  - first:
+      213: -5979820495593012385
+    second: ParqueObjetos_4
+  - first:
+      213: 2615043644084484670
+    second: ParqueObjetos_5
+  - first:
+      213: 405849187896622007
+    second: ParqueObjetos_6
+  - first:
+      213: -5093180758568419368
+    second: ParqueObjetos_7
+  - first:
+      213: -4684413825087347035
+    second: ParqueObjetos_8
+  - first:
+      213: -6679219163138407380
+    second: ParqueObjetos_9
+  - first:
+      213: 5375166399104698319
+    second: ParqueObjetos_10
+  - first:
+      213: -9036545254928134414
+    second: ParqueObjetos_11
+  - first:
+      213: 5133306298893035416
+    second: ParqueObjetos_12
+  - first:
+      213: 6751096743116308292
+    second: ParqueObjetos_13
+  - first:
+      213: 8219533809039010311
+    second: ParqueObjetos_14
+  - first:
+      213: 3272112590028979426
+    second: ParqueObjetos_15
+  - first:
+      213: 7049726927656446394
+    second: ParqueObjetos_16
+  - first:
+      213: 2431960842118024251
+    second: ParqueObjetos_17
+  - first:
+      213: 2046003577543975304
+    second: ParqueObjetos_18
+  - first:
+      213: 87040173557368229
+    second: ParqueObjetos_19
+  - first:
+      213: 2168964739036058279
+    second: ParqueObjetos_20
+  - first:
+      213: -5750870946581538
+    second: ParqueObjetos_21
+  - first:
+      213: -2708314256266495038
+    second: ParqueObjetos_22
+  - first:
+      213: 635609382303084793
+    second: ParqueObjetos_23
+  - first:
+      213: -5204459774332899381
+    second: ParqueObjetos_24
+  - first:
+      213: -3355671264946457496
+    second: ParqueObjetos_25
+  - first:
+      213: -5311913517329106552
+    second: ParqueObjetos_26
+  - first:
+      213: 2772768969596493631
+    second: ParqueObjetos_27
+  - first:
+      213: -3865521253606847491
+    second: ParqueObjetos_28
+  - first:
+      213: -7858644510483154931
+    second: ParqueObjetos_29
+  - first:
+      213: -4191908677294944818
+    second: ParqueObjetos_30
+  - first:
+      213: -1362935034869976071
+    second: ParqueObjetos_31
+  - first:
+      213: 7881555435906587866
+    second: ParqueObjetos_32
+  - first:
+      213: -5475023621896000182
+    second: ParqueObjetos_33
+  - first:
+      213: -3190272815405318311
+    second: ParqueObjetos_34
+  - first:
+      213: 6994562970231949446
+    second: ParqueObjetos_35
+  - first:
+      213: 4589374788233515012
+    second: ParqueObjetos_36
+  - first:
+      213: 5618588028428648588
+    second: ParqueObjetos_37
+  - first:
+      213: 8879368569194440963
+    second: ParqueObjetos_38
+  - first:
+      213: 3759642198530889880
+    second: ParqueObjetos_39
+  - first:
+      213: 2856796339766600880
+    second: ParqueObjetos_40
+  - first:
+      213: -253308676087505681
+    second: ParqueObjetos_41
+  - first:
+      213: -1243005730868187554
+    second: ParqueObjetos_42
+  - first:
+      213: 4367413284711572202
+    second: ParqueObjetos_43
+  - first:
+      213: -7311717357216971062
+    second: ParqueObjetos_44
+  - first:
+      213: 5851984510734741866
+    second: ParqueObjetos_45
+  - first:
+      213: 7726689074584649927
+    second: ParqueObjetos_46
+  - first:
+      213: -7711462955457457355
+    second: ParqueObjetos_47
+  - first:
+      213: 7975029391401065671
+    second: ParqueObjetos_48
+  - first:
+      213: 8258893679725961303
+    second: ParqueObjetos_49
+  - first:
+      213: 2645683931802637396
+    second: ParqueObjetos_50
+  - first:
+      213: -1408671259272320271
+    second: ParqueObjetos_51
+  - first:
+      213: -6645824664221615877
+    second: ParqueObjetos_52
+  - first:
+      213: -7536270203405741884
+    second: ParqueObjetos_53
+  - first:
+      213: -3276497305410539392
+    second: ParqueObjetos_54
+  - first:
+      213: 3537302362428794112
+    second: ParqueObjetos_55
+  - first:
+      213: -6755062335603397702
+    second: ParqueObjetos_56
+  - first:
+      213: -106654495862507137
+    second: ParqueObjetos_57
+  - first:
+      213: -2479745735102915872
+    second: ParqueObjetos_58
+  - first:
+      213: 8718859784602315535
+    second: ParqueObjetos_59
+  - first:
+      213: 5052035683082398815
+    second: ParqueObjetos_60
+  - first:
+      213: 5290396595228884150
+    second: ParqueObjetos_61
+  - first:
+      213: 5220745714047034358
+    second: ParqueObjetos_62
+  - first:
+      213: 6498721504586690468
+    second: ParqueObjetos_63
+  - first:
+      213: -6092483934687028750
+    second: ParqueObjetos_64
+  - first:
+      213: -200996789793624200
+    second: ParqueObjetos_65
+  - first:
+      213: 209972810853007952
+    second: ParqueObjetos_66
+  - first:
+      213: -2768002106671833249
+    second: ParqueObjetos_67
+  - first:
+      213: 2499252352533745627
+    second: ParqueObjetos_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ParqueObjetos_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 162
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dc552bcece47c90800000000000000
+      internalID: -7172847805145952925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 175
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c85f2cffe7b5b0800000000000000
+      internalID: -5352545765701400389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 172
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a65059d63bc33fe0800000000000000
+      internalID: -1210400438397938008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 179
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45885c883272dfe00800000000000000
+      internalID: 1080062519210772564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 175
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53049311f8630da0800000000000000
+      internalID: -5979820495593012385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 170
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a7cc5d6508a4420800000000000000
+      internalID: 2615043644084484670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 172
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb75f4afadd1a500800000000000000
+      internalID: 405849187896622007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 161
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbcacb5136159b0800000000000000
+      internalID: -5093180758568419368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 173
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a66db6f17e9dfeb0800000000000000
+      internalID: -4684413825087347035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 169
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2447242f85ae43a0800000000000000
+      internalID: -6679219163138407380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 129
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc740437c5d689a40800000000000000
+      internalID: 5375166399104698319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 128
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe4443e7fdb79280800000000000000
+      internalID: -9036545254928134414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 151
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8976bc4a1ea2d3740800000000000000
+      internalID: 5133306298893035416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 153
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7eb118b6b0bd50800000000000000
+      internalID: 6751096743116308292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a651b4376a11270800000000000000
+      internalID: 8219533809039010311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 139
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecb2c17011e86d20800000000000000
+      internalID: 3272112590028979426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 141
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9e7762a49a5d160800000000000000
+      internalID: 7049726927656446394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 146
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cca16308f00c120800000000000000
+      internalID: 2431960842118024251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 142
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881efa0e96dd46c10800000000000000
+      internalID: 2046003577543975304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 136
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a54312a39a353100800000000000000
+      internalID: 87040173557368229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 134
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2979040f5b91e10800000000000000
+      internalID: 2168964739036058279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 140
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed374140d919beff0800000000000000
+      internalID: -5750870946581538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 136
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbfb1f78822a6ad0800000000000000
+      internalID: -2708314256266495038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0b4189d5322d800800000000000000
+      internalID: 635609382303084793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_24
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 128
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe31fd86b06c7b0800000000000000
+      internalID: -5204459774332899381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 107
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86471ed73c24e61d0800000000000000
+      internalID: -3355671264946457496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 107
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b00abcca4846b0800000000000000
+      internalID: -5311913517329106552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_27
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 108
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5605efaada7620800000000000000
+      internalID: 2772768969596493631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 115
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb8a0776e8ea5ac0800000000000000
+      internalID: -3865521253606847491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 111
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08f390647c70f290800000000000000
+      internalID: -7858644510483154931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 109
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd05f6844953d5c0800000000000000
+      internalID: -4191908677294944818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 110
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f3a29ec1e51de0800000000000000
+      internalID: -1362935034869976071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcd2c229e8e06d60800000000000000
+      internalID: 7881555435906587866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 109
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d2408160fc404b0800000000000000
+      internalID: -5475023621896000182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3e25f6cfd9b3d0800000000000000
+      internalID: -3190272815405318311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_35
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 101
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688c6cf66fda11160800000000000000
+      internalID: 6994562970231949446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 105
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400dac9ed0cb0bf30800000000000000
+      internalID: 4589374788233515012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 79
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8080c51b0c39fd40800000000000000
+      internalID: 5618588028428648588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_38
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3096a943baad93b70800000000000000
+      internalID: 8879368569194440963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 82
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898900ef8aeec2430800000000000000
+      internalID: 3759642198530889880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4ac63922165a720800000000000000
+      internalID: 2856796339766600880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9747e9111c7cf0800000000000000
+      internalID: -253308676087505681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 86
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea3dd9fd4ffbee0800000000000000
+      internalID: -1243005730868187554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_43
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 80
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae22e8e2e3b2c9c30800000000000000
+      internalID: 4367413284711572202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac646018dcf878a90800000000000000
+      internalID: -7311717357216971062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61be6948ec663150800000000000000
+      internalID: 5851984510734741866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0828c86c6ba3b60800000000000000
+      internalID: 7726689074584649927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 67
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533df519c416bf490800000000000000
+      internalID: -7711462955457457355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 73
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc92cb5afefcae60800000000000000
+      internalID: 7975029391401065671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e8c15b0c7d9270800000000000000
+      internalID: 8258893679725961303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 66
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4541e0fb48b57b420800000000000000
+      internalID: 2645683931802637396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa65c104f4637ce0800000000000000
+      internalID: -1408671259272320271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87a81dda945c3a0800000000000000
+      internalID: -6645824664221615877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0d3aacd2ac96790800000000000000
+      internalID: -7536270203405741884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_54
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 50
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080fa737f0b8782d0800000000000000
+      internalID: -3276497305410539392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 33
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005e7b7d1c5071130800000000000000
+      internalID: 3537302362428794112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 46
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb2dba78923142a0800000000000000
+      internalID: -6755062335603397702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 42
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79ba641d46158ef0800000000000000
+      internalID: -106654495862507137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea96e5646c269dd0800000000000000
+      internalID: -2479745735102915872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_59
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 33
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0be8a397cc9ff870800000000000000
+      internalID: 8718859784602315535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_60
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 40
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c69badfaf6c1640800000000000000
+      internalID: 5052035683082398815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_61
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcbd837ca34b6940800000000000000
+      internalID: 5290396595228884150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3aa64f090d37840800000000000000
+      internalID: 5220745714047034358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afe417d6c8103a50800000000000000
+      internalID: 6498721504586690468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f994390426237ba0800000000000000
+      internalID: -6092483934687028750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 19
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6b5f0c7ae53df0800000000000000
+      internalID: -200996789793624200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0524263b829f9e200800000000000000
+      internalID: 209972810853007952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_67
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fda4edfb41699d0800000000000000
+      internalID: -2768002106671833249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ParqueObjetos_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf45d4e5c02fa220800000000000000
+      internalID: 2499252352533745627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
