@@ -1672,12 +1672,12 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: '"En la mesa siempre habra del pastel que tanto te gustaba"'
+      value: 'Mi madre... una mujer estricta, pero siempre me demostraba su afecto '
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: 'Mi madre es una mujer estricta, pero siempre me ha demostrado su afecto '
+      value: Me encantaba el pastel de fresa que hacia
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
@@ -1697,17 +1697,17 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "Cuando m\xE1s lo deseaba y necesitaba."
+      value: "\xA1Vaya! Se acordo de mi y me dejo una racion en la cocina"
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: "Ahora recuerdo cu\xE1n importante es en mi vida"
+      value: Recuerdo lo importante que es en mi vida
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: "Quiz\xE1s y hasta mi madre se encuentre mejor sin mi"
+      value: Me pregunto si ahora estara mejor sin mi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18522502bdee37944bb6060980edcd91, type: 3}
@@ -5761,8 +5761,8 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la
-        carrera de padres e hijos."
+      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la carrera
+        de padres e hijos."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
