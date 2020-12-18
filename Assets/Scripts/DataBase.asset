@@ -24,8 +24,7 @@ MonoBehaviour:
     descripcion: 
   - id: 2
     nombre: Silla
-    image: {fileID: -6056380807486736462, guid: c31098fdea600914887e748bc5a9e2a3,
-      type: 3}
+    image: {fileID: 4062388338349722636, guid: 89f03b889f134ce47838bd502b373199, type: 3}
     descripcion: 
   - id: 3
     nombre: Jabon
