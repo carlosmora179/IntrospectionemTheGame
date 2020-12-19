@@ -144,7 +144,7 @@ public class VerificadorZonaHermana : MonoBehaviour
         }
         if (zonaResuelta)
         {
-            //puerta.SetActive(false);
+            puerta.SetActive(false);
             zonaResuelta = false;
         }
 
