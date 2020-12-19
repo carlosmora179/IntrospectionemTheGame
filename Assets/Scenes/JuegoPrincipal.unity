@@ -326,13 +326,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E para interactuar
+  m_Text: '[E] Interactuar'
 --- !u!222 &40605329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -811,6 +811,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539884677099546657, guid: 3cc95be1751a13944b27a818524dc77e,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539884677099546657, guid: 3cc95be1751a13944b27a818524dc77e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539884677099546657, guid: 3cc95be1751a13944b27a818524dc77e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539884677099546657, guid: 3cc95be1751a13944b27a818524dc77e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7579150912357982132, guid: 3cc95be1751a13944b27a818524dc77e,
         type: 3}
@@ -2494,6 +2514,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.062079
       objectReference: {fileID: 0}
+    - target: {fileID: 2336800842552027231, guid: 2a0588addfa66234c93b9e36ead0222c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2336800842976686469, guid: 2a0588addfa66234c93b9e36ead0222c,
         type: 3}
       propertyPath: m_Sprite
@@ -2513,7 +2538,7 @@ PrefabInstance:
     - target: {fileID: 2336800843044481903, guid: 2a0588addfa66234c93b9e36ead0222c,
         type: 3}
       propertyPath: m_Text
-      value: E para interactuar
+      value: '[E] Interactuar'
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2336800841945024957, guid: 2a0588addfa66234c93b9e36ead0222c, type: 3}
@@ -2962,12 +2987,12 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: 'Mi madre... una mujer estricta, pero siempre me demostraba su afecto '
+      value: Mi madre... una mujer estricta, pero siempre me demostraba su afecto.
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: Me encantaba el pastel de fresa que hacia
+      value: "Me encantaba el pastel de fresa que hac\xEDa."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
@@ -2987,17 +3012,17 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "\xA1Vaya! Se acordo de mi y me dejo una racion en la cocina"
+      value: "\xA1Vaya! Se acordo de m\xED y me dejo una raci\xF3n en la cocina."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: Recuerdo lo importante que es en mi vida
+      value: Recuerdo lo importante que es en mi vida.
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: Me pregunto si ahora estara mejor sin mi
+      value: "Me pregunto si ahora estara mejor sin m\xED."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18522502bdee37944bb6060980edcd91, type: 3}
@@ -3374,8 +3399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 33, y: 0}
-  m_SizeDelta: {x: -536.0401, y: 100.784}
+  m_AnchoredPosition: {x: 8, y: 28}
+  m_SizeDelta: {x: -733.5721, y: 78.20892}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &253656121
 MonoBehaviour:
@@ -3390,7 +3415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6726,7 +6751,7 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: Pero no todo dura para siempre, y me depidieron.
+      value: Pero no todo dura para siempre, y me despidieron.
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -6748,7 +6773,7 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: No creo poder haber aguantado tanto sin ella.
+      value: No creo haber aguantado tanto sin ella.
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -6780,6 +6805,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.04836154
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -12492,23 +12522,24 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: El cuarto de mi hermana
+      value: El cuarto de mi hermana...
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: Siempre haciamos perfumes juntos
+      value: "Siempre hac\xEDamos perfumes juntos."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
       value: Recuerdo que para hacerlos se ocupaba en esa probeta, aroma de una rosa,
-        agua y alcohol
+        agua y alcohol.
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: Hare uno para recordar esos momentos y ver esa vieja maquina funcionando
+      value: "Har\xE9 uno para recordar esos momentos y ver esa vieja m\xE1quina
+        funcionando."
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -12540,6 +12571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 1.0476565
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -12697,13 +12733,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E para interactuar
+  m_Text: '[E] Resolver'
 --- !u!222 &848603766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14600,7 +14636,7 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[5]
-      value: Algo en mi me impide seguir sin encontrarlo.
+      value: "Algo en m\xED me impide seguir sin encontrarlo."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
@@ -17331,8 +17367,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044384028}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3473.9202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 253656120}
@@ -17341,7 +17377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.5048904, y: -1.2037346}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1044384030
@@ -17619,7 +17655,7 @@ MonoBehaviour:
       todo el proceso."
     - Al final nos desmayamos por el olor, pero fue un momento muy especial.
     - "Hace tiempo no la veo, me hubiera gustado verla una \xFAltima vez."
-    - "\xA1Oh! El perfume que hice esta en la mesa"
+    - "\xA1Oh! El perfume que hice esta en la mesa."
   dialoguePanel: {fileID: 1399795399}
   displayText: {fileID: 1848861725}
   listPuzzles:
@@ -17822,6 +17858,11 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.05618739
       objectReference: {fileID: 0}
+    - target: {fileID: 2336800842552027227, guid: 2a0588addfa66234c93b9e36ead0222c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2336800842976686469, guid: 2a0588addfa66234c93b9e36ead0222c,
         type: 3}
       propertyPath: m_Sprite
@@ -17941,17 +17982,17 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: 'Factura: Saldo pendiente de su vivienda 48mil dolares.'
+      value: 'Factura: Saldo pendiente de su vivienda $48 000.'
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: 'Factura: Saldo de su vehiculo 22mil dolares.'
+      value: 'Factura: Saldo de su vehiculo $22 000.'
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: 'Factura: Saldo de prestamos 150mil dolares.'
+      value: 'Factura: Saldo de prestamos $150 000.'
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -17993,6 +18034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.035473347
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -19457,8 +19503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 33, y: 0}
-  m_SizeDelta: {x: -536.0401, y: 100.784}
+  m_AnchoredPosition: {x: 25, y: 36}
+  m_SizeDelta: {x: -724.6902, y: 87.17218}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1444249639
 MonoBehaviour:
@@ -19473,7 +19519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -19507,46 +19553,51 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: Nos llevamos bien de inmediato, por lo que comence a ir con mucha frecuencia
-        a ese Playground para que jugaramos.
+      value: 'Nos llevamos bien de inmediato. '
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
+      value: "Por lo que comenc\xE9 a ir con mucha frecuencia a ese Playground para
+        que jugaramos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: dialogue.sentenceList.Array.data[2]
       value: Con el tiempo nos volvimos muy cercanos, y nos prometimos que de grandes
         nos casariamos.
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
-      propertyPath: dialogue.sentenceList.Array.data[2]
+      propertyPath: dialogue.sentenceList.Array.data[3]
       value: "Y har\xEDamos de esa peque\xF1a casa donde jugabamos nuestro verdadero
         hogar..."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
-      propertyPath: dialogue.sentenceList.Array.data[3]
+      propertyPath: dialogue.sentenceList.Array.data[4]
       value: "Adem\xE1s, que vivir\xEDamos felices por siempre ah\xED."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
-      propertyPath: dialogue.sentenceList.Array.data[4]
+      propertyPath: dialogue.sentenceList.Array.data[5]
       value: Esta llave que tengo desde el inicio, es la llave de nuestra casa, que
         con mucho esfuerzo logramos hacer.
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
-      propertyPath: dialogue.sentenceList.Array.data[5]
+      propertyPath: dialogue.sentenceList.Array.data[6]
       value: "Y no solo eso, esta llave representa esa promesa que a\xFAn no termino
         de cumplir."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
-      propertyPath: dialogue.sentenceList.Array.data[6]
+      propertyPath: dialogue.sentenceList.Array.data[7]
       value: "\xA1Tengo que volver!"
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
@@ -19589,6 +19640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.04317689
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -21528,6 +21584,11 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.78354037
       objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: m_Name
@@ -23303,6 +23364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.1620708
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336800842552027227, guid: 2a0588addfa66234c93b9e36ead0222c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2336800842976686469, guid: 2a0588addfa66234c93b9e36ead0222c,
         type: 3}
@@ -32128,12 +32194,12 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: 'Periodico: Enfermero por mala praxis es despedido de mala manera '
+      value: "Peri\xF3dico: Enfermero por mala praxis es despedido."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: Provocando una muerte repentina del paciente a su cargo.
+      value: "Provoc\xF3 muerte repentina del paciente a su cargo."
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -32175,6 +32241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.20538855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -32986,13 +33057,13 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: "Resultando en un coma grave, con posible da\xF1o cerebral."
+      value: "Queda en coma grave, con posible da\xF1o cerebral."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: 'Periodico: Un ex empleado del hospital fue golpeado brutalmente durante
-        un intento de asalto'
+      value: "Peri\xF3dico: Un ex-empleado del hospital fue golpeado brutalmente
+        durante un intento de asalto."
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -33029,6 +33100,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 0.6441078
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -33543,13 +33619,13 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: "Estas fotos en espec\xEDfico son de cuando viajamos al extrajero, y
-        est\xE1bamos comiendo en un restaurante."
+      value: "Estas fotos en espec\xEDfico son de cuando viajamos al extranjero,
+        y est\xE1bamos comiendo en un restaurante."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: "No entendia nada de lo que dec\xEDa el man\xFA, por lo que ped\xED
+      value: "No entendia nada de lo que dec\xEDa el men\xFA, por lo que ped\xED
         algo que no me gusto para nada."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
@@ -33592,6 +33668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.03697872
+      objectReference: {fileID: 0}
+    - target: {fileID: 6975256574760261148, guid: 41f1d53804504d6479e162954e32d70e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958765173558687143, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -37170,8 +37251,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142686040}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1444249638}
@@ -37180,7 +37261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.7904806, y: -2.3156595}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2142686042

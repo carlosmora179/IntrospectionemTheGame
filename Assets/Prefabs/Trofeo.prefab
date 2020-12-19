@@ -71,13 +71,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E para interactuar
+  m_Text: '[E] Recoger'
 --- !u!1 &9101747106046566118
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 9101747106558814836}
+  nuevaPos: {fileID: 0}
 --- !u!1 &9101747107544000713
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,8 +357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 33, y: 0}
-  m_SizeDelta: {x: -536.0401, y: 100.784}
+  m_AnchoredPosition: {x: 16, y: 35}
+  m_SizeDelta: {x: -720.1468, y: 79.540955}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &9101747107544000714
 CanvasRenderer:
@@ -380,7 +381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

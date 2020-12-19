@@ -61,7 +61,7 @@ public class ObjetoPuzzle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        text.text = "E para interactuar";
+        text.text = "[E] Resolver";
         canvas.gameObject.SetActive(true);
         player = collision.GetComponent<Player>();
         player.inTrigger = true;
@@ -77,7 +77,7 @@ public class ObjetoPuzzle : MonoBehaviour
 
     IEnumerator WaitSeconds()
     {
-        text.text = "Item equivocado";
+        text.text = "Equivocado";
         canvas.SetActive(true);
         yield return new WaitForSeconds(2f);
         canvas.SetActive(false);

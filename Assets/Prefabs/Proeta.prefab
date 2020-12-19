@@ -177,7 +177,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 3121140810826139899}
-  - {fileID: 3121140810834151349}
   m_Father: {fileID: 3121140809596694299}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -274,14 +273,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 3121140810834151349}
   m_Father: {fileID: 3121140810414893697}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: -331}
-  m_SizeDelta: {x: -513.9971, y: -656.8184}
+  m_AnchoredPosition: {x: 10, y: -298}
+  m_SizeDelta: {x: -707.43066, y: -659.4046}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3121140810826139901
 CanvasRenderer:
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -345,17 +345,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3121140810834151346}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3121140810414893697}
-  m_RootOrder: 1
+  m_Father: {fileID: 3121140810826139899}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20, y: -330}
-  m_SizeDelta: {x: -629.2575, y: -715.79767}
+  m_AnchoredPosition: {x: 4.9000244, y: -0.2999878}
+  m_SizeDelta: {x: -127.50299, y: -56.388428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3121140810834151351
 CanvasRenderer:
@@ -397,4 +397,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E para recoger
+  m_Text: '[E] Recoger'

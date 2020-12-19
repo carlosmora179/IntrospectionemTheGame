@@ -56,7 +56,7 @@ public class CasaFinal : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            text.text = "E para interactuar";
+            text.text = "[E] Resolver";
             canvas.SetActive(true);
             isEnter = true;
             player = collision.GetComponent<Player>();
@@ -75,7 +75,7 @@ public class CasaFinal : MonoBehaviour
 
     IEnumerator WaitSeconds()
     {
-        text.text = "Item equivocado";
+        text.text = "Equivocado";
         canvas.SetActive(true);
         yield return new WaitForSeconds(2f);
         canvas.SetActive(false);

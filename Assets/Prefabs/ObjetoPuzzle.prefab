@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19, y: -337}
-  m_SizeDelta: {x: -515.7451, y: -675.8129}
+  m_AnchoredPosition: {x: 2, y: -321}
+  m_SizeDelta: {x: -736.4674, y: -685.1065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2336800841774522212
 CanvasRenderer:
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -126,6 +126,7 @@ MonoBehaviour:
   resuelto: 0
   canvas: {fileID: 2336800842552027231}
   collider: {fileID: 2336800841945024958}
+  sprite: {fileID: 0}
   text: {fileID: 2336800843044481903}
 --- !u!58 &2336800841945024958
 CircleCollider2D:
@@ -427,4 +428,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E
+  m_Text: '[E] Resolver'
