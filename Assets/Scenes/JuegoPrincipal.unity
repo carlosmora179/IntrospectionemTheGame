@@ -5761,8 +5761,8 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la carrera
-        de padres e hijos."
+      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la
+        carrera de padres e hijos."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}

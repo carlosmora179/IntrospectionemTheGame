@@ -12,10 +12,13 @@ public class Player : MonoBehaviour
     public bool inTrigger = false;
     private bool isOpen = false;
 
+    Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();   
+        rb2d = GetComponent<Rigidbody2D>(); 
+        anim = GetComponent<Animator>();  
     }
 
     // Update is called once per frame
@@ -28,20 +31,26 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.UpArrow) || (Input.GetKey(KeyCode.W)))
             {
                 move.y = 1;
+                
             }
             if (Input.GetKey(KeyCode.DownArrow) || (Input.GetKey(KeyCode.S)))
             {
                 move.y = -1;
+                
             }
             if (Input.GetKey(KeyCode.LeftArrow) || (Input.GetKey(KeyCode.A)))
             {
                 move.x = -1;
+                
             }
             if (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.D)))
             {
                 move.x = 1;
+                
             }
 
+            anim.SetFloat("movX",move.x);
+            anim.SetFloat("movY",move.y);
             rb2d.MovePosition((Vector2)this.transform.position + (move * speed * Time.deltaTime));
         }
 
