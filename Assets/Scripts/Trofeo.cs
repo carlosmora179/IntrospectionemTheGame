@@ -7,6 +7,7 @@ public class Trofeo : MonoBehaviour
     [SerializeField]
     private GameObject canvas;
     private bool isEnter = false;
+    public GameObject nuevaPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class Trofeo : MonoBehaviour
     {
         if(isEnter && Input.GetKeyDown(KeyCode.E)) 
         {
-            transform.position = new Vector3(0,0,0);
+            transform.position = nuevaPos.transform.position;
         }
     }
 

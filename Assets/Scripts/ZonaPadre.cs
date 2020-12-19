@@ -7,7 +7,7 @@ public class ZonaPadre : MonoBehaviour
     [SerializeField]
     private VerificadorZona verificador;
     [SerializeField]
-    private Collider2D collider;
+    private GameObject puerta;
     private bool zonaTerminada;
     [SerializeField]
     private GameObject trofeo;
@@ -37,7 +37,7 @@ public class ZonaPadre : MonoBehaviour
         if (entro && Input.GetKeyDown(KeyCode.E))
         {
             entro = false;
-            //collider.enabled = false;
+            puerta.SetActive(false);
             interaccion.enabled = false;
             trofeo.gameObject.SetActive(true);
         }
