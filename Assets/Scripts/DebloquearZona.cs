@@ -7,7 +7,7 @@ public class DebloquearZona : MonoBehaviour
     [SerializeField]
     private VerificadorZona verificador;
     [SerializeField]
-    private Collider2D collider;
+    private GameObject puerta;
     private bool zonaTerminada;
     [SerializeField]
     private GameObject trofeo;
@@ -21,7 +21,7 @@ public class DebloquearZona : MonoBehaviour
     void Update()
     {
         if (!zonaTerminada && verificador.zonaResuelta) {
-            //collider.enabled = false;
+            //puerta.SetActive(false);
             zonaTerminada = true;
             trofeo.gameObject.SetActive(true);
         }

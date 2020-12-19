@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             player.canMove = true;
+            canvas.SetActive(true);
             FillSentences();
         }
     }
