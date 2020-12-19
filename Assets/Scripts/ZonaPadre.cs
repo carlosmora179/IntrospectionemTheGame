@@ -17,6 +17,8 @@ public class ZonaPadre : MonoBehaviour
     private GameObject canvas;
     [SerializeField]
     private Collider2D interaccion;
+    [SerializeField]
+    private GameObject capa;
 
     private bool entro = false;
     // Start is called before the first frame update
@@ -38,6 +40,7 @@ public class ZonaPadre : MonoBehaviour
         {
             entro = false;
             puerta.SetActive(false);
+            capa.GetComponent<LlenarLobby>().llenarPadre();
             interaccion.enabled = false;
             trofeo.gameObject.SetActive(true);
         }
