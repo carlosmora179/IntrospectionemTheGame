@@ -14,6 +14,9 @@ public class CasaFinal : MonoBehaviour
     [SerializeField]
     private Text text;
 
+    [SerializeField]
+    private GameObject creditos;
+
     private bool isEnter = false;
     private bool isOpen = false;
     private Player player;
@@ -42,6 +45,7 @@ public class CasaFinal : MonoBehaviour
                     canvas.gameObject.SetActive(false);
                     collider.enabled = false;
                     //Cambiar scena aqui
+                    creditos.GetComponent<Level1Loader>().LoadLevel1();
                 }
                 else
                 {

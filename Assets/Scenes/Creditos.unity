@@ -308,10 +308,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2137966609169860763, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3891294211219617270, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4864513443220683596, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864513443220683596, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6600987173315028784, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
         type: 3}
@@ -534,6 +549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Creditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178993522132766599, guid: 983fcb9a7065ea04982b60e15c287890,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8178993523389488757, guid: 983fcb9a7065ea04982b60e15c287890,
         type: 3}

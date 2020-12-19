@@ -61,6 +61,7 @@ MonoBehaviour:
   slotInfoList: []
   canva: {fileID: 7579150912357982132}
   capacidad: 15
+  selected: 0
 --- !u!1 &2677176030075120933
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,10 +97,10 @@ RectTransform:
   m_Father: {fileID: 5655675136845496410}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 23, y: -29}
-  m_SizeDelta: {x: -749.6685, y: 52.6333}
+  m_SizeDelta: {x: 274.33148, y: 52.6333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7992347647800796522
 CanvasRenderer:
@@ -361,10 +362,10 @@ RectTransform:
   m_Father: {fileID: 5655675136845496410}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 390.75, y: 177.6}
-  m_SizeDelta: {x: -781.4949, y: -575.3136}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -121.25, y: 177.6}
+  m_SizeDelta: {x: 242.50513, y: 192.6864}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7952813484800069159
 CanvasRenderer:
@@ -419,7 +420,7 @@ GameObject:
   - component: {fileID: 9068816006904434082}
   - component: {fileID: 1738514949701073621}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasInventario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

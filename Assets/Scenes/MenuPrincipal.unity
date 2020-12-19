@@ -1055,8 +1055,8 @@ PrefabInstance:
     - target: {fileID: 6507518567105692792, guid: fe510448799efad4ebb9aec45ca411ed,
         type: 3}
       propertyPath: m_Text
-      value: "\xBFQue hago ac\xE1?\nNo recuerdo nada\n\nLo ultimo que recuerdo es
-        que estaba caminando por un callej\xF3n"
+      value: "\xBFQu\xE9 hago ac\xE1?\nNo recuerdo nada\n\nLo \xFAltimo que recuerdo
+        es que estaba caminando por un callej\xF3n"
       objectReference: {fileID: 0}
     - target: {fileID: 6507518567105692799, guid: fe510448799efad4ebb9aec45ca411ed,
         type: 3}
