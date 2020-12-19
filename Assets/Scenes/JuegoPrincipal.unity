@@ -12538,8 +12538,7 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: "Har\xE9 uno para recordar esos momentos y ver esa vieja m\xE1quina
-        funcionando."
+      value: "Har\xE9 uno para recordar esos momentos y ver esa vieja m\xE1quina funcionando."
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -14620,8 +14619,8 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la
-        carrera de padres e hijos."
+      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la carrera
+        de padres e hijos."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
@@ -15596,6 +15595,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5567667429818601786, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4bc08588710278544b70e44e290dcf66, type: 2}
     - target: {fileID: 6600987173315028784, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -33062,8 +33066,8 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: "Peri\xF3dico: Un ex-empleado del hospital fue golpeado brutalmente
-        durante un intento de asalto."
+      value: "Peri\xF3dico: Un ex-empleado del hospital fue golpeado brutalmente durante
+        un intento de asalto."
       objectReference: {fileID: 0}
     - target: {fileID: 4797541965427513953, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
@@ -33619,14 +33623,14 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: "Estas fotos en espec\xEDfico son de cuando viajamos al extranjero,
-        y est\xE1bamos comiendo en un restaurante."
+      value: "Estas fotos en espec\xEDfico son de cuando viajamos al extranjero, y
+        est\xE1bamos comiendo en un restaurante."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: "No entendia nada de lo que dec\xEDa el men\xFA, por lo que ped\xED
-        algo que no me gusto para nada."
+      value: "No entendia nada de lo que dec\xEDa el men\xFA, por lo que ped\xED algo
+        que no me gusto para nada."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
