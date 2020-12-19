@@ -25,6 +25,7 @@ public class Inventario : MonoBehaviour, IPointerClickHandler
         slotInfoList = new List<SlotInfo>();
         selected = -1;
         CreateInventory();
+        AddItem(0);
         CerrarInventario();
     }
 
