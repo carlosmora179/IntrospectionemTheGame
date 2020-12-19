@@ -19,6 +19,7 @@ public class VerificadorZonaHermana : MonoBehaviour
     public GameObject respawn;
     public GameObject proeta;
     public GameObject puerta;
+    public GameObject capa;
 
     private bool readAllSentences = false;
     private bool setFirstPuzzle = true;
@@ -145,6 +146,7 @@ public class VerificadorZonaHermana : MonoBehaviour
         if (zonaResuelta)
         {
             puerta.SetActive(false);
+            capa.GetComponent<LlenarLobby>().llenarHermana();
             zonaResuelta = false;
         }
 

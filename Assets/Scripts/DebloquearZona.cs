@@ -11,6 +11,8 @@ public class DebloquearZona : MonoBehaviour
     private bool zonaTerminada;
     [SerializeField]
     private GameObject trofeo;
+    [SerializeField]
+    private GameObject capa;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class DebloquearZona : MonoBehaviour
             puerta.SetActive(false);
             zonaTerminada = true;
             trofeo.gameObject.SetActive(true);
+            capa.GetComponent<LlenarLobby>().limpiarLobby();
         }
     }
 }

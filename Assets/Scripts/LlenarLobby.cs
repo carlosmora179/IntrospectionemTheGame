@@ -12,8 +12,8 @@ public class LlenarLobby : MonoBehaviour
     // Update is called once per frame
 
      public void limpiarLobby(){
-         danio0.SetActive(true);
-        danio1.SetActive(false);
+         danio0.SetActive(false);
+        danio1.SetActive(true);
 
     }
     public void llenarPadre(){

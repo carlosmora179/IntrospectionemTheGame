@@ -371,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58192215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.54, y: 4.87, z: 1199}
+  m_LocalPosition: {x: -10.54, y: 5.05, z: 1199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1538596695}
@@ -657,6 +657,7 @@ MonoBehaviour:
   verificador: {fileID: 1392445448}
   puerta: {fileID: 1638717345}
   trofeo: {fileID: 36460332}
+  capa: {fileID: 1607328355}
 --- !u!1 &148454466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3530434613357421117, guid: b41032f543ef23d42ade633a73466235,
@@ -1628,7 +1629,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: aa43da5545d7da24787e6d7a407429e6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.354
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1730,7 +1731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &192520140
 Transform:
   m_ObjectHideFlags: 0
@@ -2701,6 +2702,7 @@ MonoBehaviour:
   acertijo: {fileID: 197314752}
   canvas: {fileID: 2142686040}
   interaccion: {fileID: 224285671}
+  capa: {fileID: 1607328355}
 --- !u!212 &224285670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14582,8 +14584,8 @@ PrefabInstance:
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la
-        carrera de padres e hijos."
+      value: "Ahora que recuerdo, d\xF3nde estar\xE1 el trofeo que ganamos en la carrera
+        de padres e hijos."
       objectReference: {fileID: 0}
     - target: {fileID: 8863279603239198012, guid: 18522502bdee37944bb6060980edcd91,
         type: 3}
@@ -14696,6 +14698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530434613357421117, guid: b41032f543ef23d42ade633a73466235,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3530434613357421091, guid: b41032f543ef23d42ade633a73466235, type: 3}
@@ -15547,6 +15554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864513443220683596, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5567667429818601786, guid: 9cc1b2cb391427a4e9b34021e1078c9e,
         type: 3}
@@ -16732,6 +16744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3530434613357421117, guid: b41032f543ef23d42ade633a73466235,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3530434613357421091, guid: b41032f543ef23d42ade633a73466235, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b41032f543ef23d42ade633a73466235, type: 3}
@@ -17619,6 +17636,7 @@ MonoBehaviour:
   respawn: {fileID: 817515726}
   proeta: {fileID: 3121140809596694296, guid: 23c2ab55ee859ba47a05d59f4b0570be, type: 3}
   puerta: {fileID: 148454466}
+  capa: {fileID: 1607328355}
   zonaResuelta: 0
   sprite1: {fileID: 8150866003407177155, guid: 6a0a56c34c418134881df5f34f860a9a, type: 3}
   sprite2: {fileID: 8423902246448896483, guid: 6a0a56c34c418134881df5f34f860a9a, type: 3}
@@ -17904,6 +17922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530434613357421117, guid: b41032f543ef23d42ade633a73466235,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3530434613357421091, guid: b41032f543ef23d42ade633a73466235, type: 3}
@@ -18231,8 +18254,20 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1505340107403682449, guid: 39b8ea60fffd58045ae7f376d6f4539f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505340107403682449, guid: 39b8ea60fffd58045ae7f376d6f4539f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.31
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1505340106960708429, guid: 39b8ea60fffd58045ae7f376d6f4539f, type: 3}
+    - {fileID: 1505340106960708416, guid: 39b8ea60fffd58045ae7f376d6f4539f, type: 3}
+    - {fileID: 1505340106960708428, guid: 39b8ea60fffd58045ae7f376d6f4539f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 39b8ea60fffd58045ae7f376d6f4539f, type: 3}
 --- !u!1 &1245973841 stripped
 GameObject:
@@ -21423,7 +21458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543767963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2, y: 4.93, z: 1199}
+  m_LocalPosition: {x: -11.26, y: 3.29, z: 1199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1538596695}
@@ -33519,8 +33554,8 @@ PrefabInstance:
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: "No entendia nada de lo que dec\xEDa el man\xFA, por lo que ped\xED
-        algo que no me gusto para nada."
+      value: "No entendia nada de lo que dec\xEDa el man\xFA, por lo que ped\xED algo
+        que no me gusto para nada."
       objectReference: {fileID: 0}
     - target: {fileID: 3288602423677571553, guid: 41f1d53804504d6479e162954e32d70e,
         type: 3}
